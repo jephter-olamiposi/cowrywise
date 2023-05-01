@@ -418,7 +418,6 @@ nav {
     margin-bottom: 40px;
     max-width: 34rem;
     
-    
 }
 
 .bar-container {
@@ -1237,26 +1236,26 @@ nav {
 @media screen and (max-width:600px) {
 
     /* nav styles */
-    .nav-container {
+    /* .nav-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 30px;
         max-width: 100%;
-    }
+    } */
 
-    .cowrywise-logo {
+    /* .cowrywise-logo {
         max-width: 150px;
-    }
+    } */
 
     /* MENU STYLES */
-    .menu-wrap {
+    /* .menu-wrap {
         z-index: 1;
         display: flex;
         align-items: center;
-    }
+    } */
 
-    .menu-wrap .toggler {
+    /* .menu-wrap .toggler {
         position: fixed;
         z-index: 2;
         cursor: pointer;
@@ -1268,10 +1267,10 @@ nav {
     .menu-wrap .hamburger {
         z-index: 1;
         width: 30px;
-    }
+    } */
 
     /* Hamburger Line */
-    .menu-wrap .hamburger>div {
+    /* .menu-wrap .hamburger>div {
         position: relative;
         flex: none;
         width: 100%;
@@ -1282,10 +1281,10 @@ nav {
         align-items: center;
         justify-content: center;
         transition: all 1s ease;
-    }
+    } */
 
     /* Hamburger Lines -  Bottom */
-    .menu-wrap .hamburger>div::after {
+    /* .menu-wrap .hamburger>div::after {
         content: '';
         position: absolute;
         z-index: 1;
@@ -1294,34 +1293,34 @@ nav {
         border-radius: 12px;
         height: 3px;
         background: inherit;
-    }
+    } */
 
     /* Moves Line Down */
-    .menu-wrap .hamburger>div::after {
+    /* .menu-wrap .hamburger>div::after {
         top: 10px;
-    }
+    } */
 
     /* Toggler Animation */
-    .menu-wrap .toggler:checked+.hamburger>div {
+    /* .menu-wrap .toggler:checked+.hamburger>div {
         transform: rotate(135deg);
         background-color: #ffffff;
-    }
+    } */
 
     /* Turns Lines Into X */
-    .menu-wrap .toggler:checked+.hamburger>div:after {
+    /* .menu-wrap .toggler:checked+.hamburger>div:after {
         top: 0;
         transform: rotate(90deg);
         background-color: #ffffff;
-    }
+    } */
 
 
     /* Show Menu */
-    .menu-wrap .toggler:checked~.menu {
+    /* .menu-wrap .toggler:checked~.menu {
         visibility: visible;
         animation-name: menu;
         animation-duration: 1s;
-    }
-
+    } */
+/* 
     @keyframes menu {
         0% {
             height: 0%
@@ -1377,10 +1376,10 @@ nav {
 
     .menu-items h2:hover {
         color: rgb(176, 176, 171);
-    }
+    } */
 
     /* dropdown image style */
-    .dropdown-destop {
+    /* .dropdown-destop {
         display: none;
     }
 
@@ -1388,10 +1387,10 @@ nav {
         cursor: pointer;
         z-index: 1;
 
-    }
+    } */
 
     /* dropdown styles */
-    .checkbox-container {
+    /* .checkbox-container {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1559,4 +1558,4 @@ nav {
     .nav-btn-group {
         display: none;
     }
-}
+} */
