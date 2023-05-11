@@ -40,7 +40,6 @@ nav {
 
 .nav-container {
     display: flex;
-    align-items: center;
     max-width: 100%;
 }
 
@@ -54,6 +53,10 @@ nav {
 }
 
 /* menu style */
+.menu-wrap{
+    display: flex;
+    align-items: center;
+}
 .menu-wrap li a {
     color: white;
     opacity: 0.6;
@@ -1645,6 +1648,9 @@ nav {
     /* Show Menu */
     .menu-wrap .toggler:checked~.menu {
         visibility: visible;
+        transform:translateY(100%);
+        
+    } 
     }
 
     .menu-wrap .toggler:checked~.menu>div {
@@ -1654,7 +1660,7 @@ nav {
 
     .menu-wrap .menu {
         position: absolute;
-        top: 0;
+        top: -100VH;
         left: 0;
         visibility: hidden;
         overflow: hidden;
@@ -1664,6 +1670,7 @@ nav {
         background: #0066F5;
         width: 100vw;
         height: 100vh;
+        transition: transform 1.5s ease-in-out;
     }
 
     .menu-wrap .menu>div>ul>li {
@@ -1756,7 +1763,8 @@ nav {
     }
 
     .bars-animation-container {
-        width: 450px;
+        max-width: 100%;
+        min-width: 150px;
 
     }
 
