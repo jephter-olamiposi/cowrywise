@@ -1651,8 +1651,6 @@ nav {
         transform:translateY(100%);
         
     } 
-    }
-
     .menu-wrap .toggler:checked~.menu>div {
         transform: scaleX(1);
 
