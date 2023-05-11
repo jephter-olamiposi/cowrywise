@@ -1141,6 +1141,7 @@ nav {
     gap: 15px;
     font-weight: 500;
     margin-left: 25px;
+    max-width: 100%;
 }
 
 .cookies a {
@@ -1439,6 +1440,10 @@ nav {
 
     .toggler {
         visibility: visible;
+    }
+
+    nav {
+        max-width: 100%;
     }
 
     .nav-bar {
@@ -1931,10 +1936,11 @@ nav {
     }
 
     .input-email {
-        background: none;
+        background: NONE;
         gap: 0;
         flex-direction: column;
         align-items: start;
+        max-width: 100%;
     }
 
     #email-light {
