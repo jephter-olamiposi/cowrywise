@@ -1551,12 +1551,14 @@ nav {
         flex-direction: column;
         background-color: #0066F5;
         border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
 
     }
 
     .checkbox-container ul h3 {
         color: #fff;
-        margin-top: 4.5rem;
     }
 
     .checkbox-container ul p {
