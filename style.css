@@ -521,10 +521,6 @@ nav {
 
 }
 
-.moving-box {
-    display: flex;
-}
-
 .moving-box-1 {
     display: flex;
     justify-content: center;
@@ -548,6 +544,7 @@ nav {
 }
 
 .moving-box {
+    display: flex;
     position: relative;
     animation: moving;
     animation-duration: 10s;
@@ -1771,10 +1768,14 @@ nav {
         max-width: 25rem;
 
     }
+    .moving-box-1{
+        height: 13rem;
+        width: 16rem;
 
-    .moving-box-1 {
-        max-width: 25rem;
-        max-height: 15rem;
+    } 
+    .moving-box-1  p {
+        font-size: 30px;
+        
     }
 
     .account-image img {
