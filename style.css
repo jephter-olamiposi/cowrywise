@@ -1773,13 +1773,13 @@ nav {
     }
 
     .moving-box-1 {
-        width: 25rem;
-        height: 15rem;
+        max-width: 25rem;
+        max-height: 15rem;
     }
 
     .account-image img {
         margin-bottom: 2rem;
-        max-width: 300px;
+        max-width: 100%;
     }
 
     .account_creation {
@@ -1850,6 +1850,9 @@ nav {
         width: 55px;
         height: 15px;
 
+    }
+    .app{
+        max-width: 100%;
     }
 
     .animation-swipe-up0 h5,
@@ -1929,6 +1932,9 @@ nav {
     .review__card {
         flex-direction: column;
     }
+    .rating{
+        max-width: 100%;
+    }
 
     .sub_footer {
         padding: 0 20px;
@@ -1952,7 +1958,8 @@ nav {
     }
 
     #email-light {
-        padding: 19px 12.5rem 19px 1.5rem;
+        padding: 19px 030px 19px 1.5rem;
+        width: 100%;
         border-radius: 8px;
         margin-bottom: 15px;
         background-color: hsla(0, 0%, 100%, .25);
@@ -1976,6 +1983,7 @@ nav {
 
     .flex {
         gap: 4rem;
+        flex-wrap: wrap;
     }
 
     .footer_legal {
